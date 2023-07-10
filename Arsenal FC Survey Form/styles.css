@@ -1,0 +1,30 @@
+body {
+  width: 100%;
+  height: 100hv;
+  margin: 0;
+  font-family: Tahoma;
+  color: #f5f6f7;
+  overflow: hidden;
+  background-image: url(https://w-dog.ru/wallpapers/3/15/537630046285723/futbolnyj-klub-emblema-arsenal-london-arsenal-kanoniry-artilleristy-fon.jpg);
+}
+h1,
+p {
+  text-align: center;
+  color: DarkRed;
+}
+
+form {
+  width: 600vw;
+}
+fieldset {
+  border: none;
+}
+
+label,
+textarea {
+  display: block;
+}
+
+input[type="submit"] {
+  margin-left: 17px;
+}
