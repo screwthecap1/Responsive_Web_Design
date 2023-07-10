@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initital scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Arsenal London FC Survey Form</h1>
+    <p id="description">
+      Join the largest Arsenal fan community in Eastern Europe and support the
+      team together!
+    </p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label"
+          >Name <input id="name" type="text" placeholder="Klim" required
+        /></label>
+        <label id="email-label"
+          >Email
+          <input
+            id="email"
+            type="email"
+            placeholder="coolguy666@mail.ru"
+            required
+          />
+        </label>
+        <label id="number-label"
+          >Age
+          <input
+            id="number"
+            type="number"
+            min="13"
+            max="120"
+            placeholder="22"
+            required
+        /></label>
+      </fieldset>
+      <fieldset>
+        <label
+          >How long have you supported Arsenal?
+          <select id="dropdown" name="dropdown">
+            <option>Select current role</option>
+            <option>I am newbie</option>
+            <option>Less than 5 years</option>
+            <option>5-10 years</option>
+            <option>Henry era</option>
+            <option>Over 25 years</option>
+            <option>Prefer not to say</option>
+          </select>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Where did you hear about our site?</legend>
+        <label
+          ><input type="radio" name="poll" value="plus" />Advertising from
+          social networks</label
+        >
+        <label
+          ><input type="radio" name="poll" value="plus-minus" />YouTube or
+          browser recommendations</label
+        >
+        <label
+          ><input type="radio" name="poll" value="minus" />Advised by a
+          friend</label
+        >
+        <label><input type="radio" name="poll" value="minus" />By chance</label>
+      </fieldset>
+      <fieldset>
+        <legend>
+          What kind of content do you prefer? (Check all that apply)
+        </legend>
+        <label
+          ><input type="checkbox" name="poll" value="front" />Team news</label
+        >
+        <label
+          ><input type="checkbox" name="poll" value="back" />Detailed match and
+          season statistics</label
+        >
+        <label
+          ><input type="checkbox" name="poll" value="wiki" />Transfer rumors and
+          gossips</label
+        >
+        <label
+          ><input type="checkbox" name="poll" value="vid" />High-quality art and
+          video materials</label
+        >
+        <label
+          ><input type="checkbox" name="poll" value="vid" />Entertainment
+          content</label
+        >
+        <label
+          ><input type="checkbox" name="poll" value="vid" />Something else (you
+          will be able to suggest ideas after registering)</label
+        >
+      </fieldset>
+      <fieldset>
+        <legend>Tell us something else about yourself! What are you doing, what is your purpose here, how did you come to this?</label>
+        <textarea id="talk" cols="60" rows="5"></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit">
+    </form>
+  </body>
+</html>
