@@ -1,0 +1,19 @@
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+#tribute-info {
+  background-color: gray;
+}
+
+p {
+  font-size: 19px;
+}
